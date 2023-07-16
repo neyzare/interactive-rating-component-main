@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141518;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.container {
+    height: 350px;
+    width: 350px;
+    background-color: #20252F;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.star {
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+h1 {
+    color: azure;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+p {
+    text-align: center;
+    color: grey;
+    font-family: 'Overpass';
+    padding-top: 25px;
+}
+
+.btn {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%);    
+    border: none;
+    transition: transform 0.3s;
+}
+
+.note {
+    padding-top: 25px;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 350px;
+
+}
+
+.btn:hover {
+     cursor: pointer;
+     transform: scale(1.2);
+}
+
+.envoyer {
+    width: 350px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn-submit {
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FC7610;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+}
+
